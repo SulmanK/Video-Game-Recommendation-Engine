@@ -41,10 +41,8 @@
    
 
 * Pertinent Deliverables
-	* [Jupyter Notebook](https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft/blob/master/Customer%20Churn%20in%20World%20of%20Warcraft.ipynb)
-	* [Project Report](https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft/blob/master/Customer%20Churn%20in%20World%20of%20Warcraft_Report.pdf)
-	* [Dashboard](https://customer-churn-in-wow-app.herokuapp.com/)
-		* Disclaimer: Due to memory constraints from Heroku API (free server), less data was used in fitting the models (17500 instead of 35000), and therefore the results will be different than the values listed in the report.  
+	* [Jupyter Notebook](https://github.com/SulmanK/Video-Game-Recommendation-Engine/blob/master/Video%20Game%20Recommendation%20Engine.ipynb)
+	* [Dashboard](https://video-game-recommender-engine.herokuapp.com/)
 	
 * References
   * S. Qaiser and R. Ali, "Text Mining: Use of TF-IDF to Examine the Relevance of Words to Documents", International Journal of Computer Applications, vol. 181, no. 1, pp. 25-29, 2018. Available: 10.5120/ijca2018917395.
