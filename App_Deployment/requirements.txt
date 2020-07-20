@@ -1,4 +1,4 @@
-Pillow==6.2.0
+Pillow>=6.2.2
 dash-core-components==1.8.0
 dash-html-components==1.0.2
 dash-renderer==1.2.4
