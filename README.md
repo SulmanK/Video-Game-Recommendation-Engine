@@ -54,9 +54,3 @@
   * "Singular Value Decomposition", Iridl.ldeo.columbia.edu, 2020. [Online]. Available: http://iridl.ldeo.columbia.edu/dochelp/StatTutorial/SVD/index.html. [Accessed: 20- Jul- 2020].
 
 
-	* P. Probst, M. Wright and A. Boulesteix, "Hyperparameters and tuning strategies for random forest", Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery, vol. 9, no. 3, 2019. Available: 10.1002/widm.1301. 
-
-	* A. Tharwat, "Principal component analysis - a tutorial", International Journal of Applied Pattern Recognition, vol. 3, no. 3, p. 197, 2016. Available: 10.1504/ijapr.2016.079733. 
-
-	* "Survey Report on K-Means Clustering Algorithm", International Journal of Modern Trends in Engineering & Research, vol. 4, no. 4, pp. 218-221, 2017. Available: 10.21884/ijmter.2017.4143.lgjzd. 
-
