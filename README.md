@@ -43,7 +43,7 @@
 	* [Dashboard](https://video-game-recommender-engine.herokuapp.com/)
 
 * Demo
-![Demo](http://g.recordit.co/4rAExRnGRF.gif)
+![Demo](http://g.recordit.co/PbQu7M9zGT.gif)
 * References
   * S. Qaiser and R. Ali, "Text Mining: Use of TF-IDF to Examine the Relevance of Words to Documents", International Journal of Computer Applications, vol. 181, no. 1, pp. 25-29, 2018. Available: 10.5120/ijca2018917395.
 
