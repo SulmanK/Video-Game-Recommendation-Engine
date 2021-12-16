@@ -35,9 +35,7 @@ def game_logos_asset(df):
             tmp_img = resize(tmp_img, (200, 200))
 
             # Now, we must check whether our images are RGBA, if so we must convert to RGB
-            ## Check if shape matches RGB (RGB can be (M, N) or (M, N, 3) )
-            print(df['name'][x])
-            print(tmp_img.shape)
+            # Check if shape matches RGB (RGB can be (M, N) or (M, N, 3) )
             if len(tmp_img.shape) == 2:
 
                 # Create a plotly express figure object
@@ -55,7 +53,7 @@ def game_logos_asset(df):
                 # Add the trace to our grid
                 fig.add_trace(tmp_trace, row=1, col=y)
 
-            ## Check if shape is RGB but not RGBA
+            # Check if shape is RGB but not RGBA
             elif (len(tmp_img.shape) == 3) & (tmp_img.shape[2] != 4):
 
                 # Create a plotly express figure object
@@ -144,10 +142,8 @@ def game_logos_asset(df):
             # Resize image to 200 x 200
             tmp_img = resize(tmp_img, (200, 200))
 
-            print(df['name'][x])
-            print(tmp_img.shape)
             # Now, we must check whether our images are RGBA, if so we must convert to RGB
-            ## Check if shape matches RGB (RGB can be (M, N) or (M, N, 3) )
+            # Check if shape matches RGB (RGB can be (M, N) or (M, N, 3) )
             if len(tmp_img.shape) == 2:
 
                 # Create a plotly express figure object
@@ -165,7 +161,7 @@ def game_logos_asset(df):
                 # Add the trace to our grid
                 fig.add_trace(tmp_trace, row=2, col=y)
 
-            # Check if shape matches RGB and not RGBA 
+            # Check if shape matches RGB and not RGBA
             elif (len(tmp_img.shape) == 3) & (tmp_img.shape[2] != 4):
                 # Create a plotly express figure object
                 tmp_fig = px.imshow(tmp_img)
