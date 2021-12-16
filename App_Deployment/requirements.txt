@@ -1,4 +1,4 @@
-Pillow==6.2.0
+Pillow==8.3.2
 dash==2.0.0
 dash-core-components==2.0.0
 dash-daq==0.4.0
