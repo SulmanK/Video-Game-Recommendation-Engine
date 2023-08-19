@@ -40,7 +40,7 @@
    
 * Pertinent Deliverables
 	* [Jupyter Notebook](https://github.com/SulmanK/Video-Game-Recommendation-Engine/blob/master/Video%20Game%20Recommendation%20Engine.ipynb)
-	* [Dashboard](https://video-game-recommender-engine.herokuapp.com/)
+	* [Dashboard](http://video-game-rec-app-env.us-east-1.elasticbeanstalk.com/)
 
 * Demo
 
