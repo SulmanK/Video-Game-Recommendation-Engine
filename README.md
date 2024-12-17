@@ -10,6 +10,30 @@
 ## Background Information
 * With the number of products increasing exponentially, it burdens the consumer in which products to purchase. A novel solution is the use of recommender systems (engines) to "recommend" relevant products to the consumers based on their preferences. Applications of recommender systems include areas such as playlist generators for video and music services like Netflix, YouTube, and Spotify. Additionally, product recommendations for services such as Amazon. In this project, we'll explore novel techniques in recommending video games using the Giant Bomb video game database. 
 
+---
+## Repository Structure
+```plaintext
+eBay-web-crawler-phone-auctions/
+├── Dashboard/                              # Contains files related to the live dashboard
+│   ├── assets/                             # CSS/IMG files used in the dashboard
+│   ├── layout_assets/                      # All functions used to create the figures in the dashboard layout
+│   ├── model/                              # Model related functions
+│   ├── Procfile                            # Configuration of the web application
+│   ├── app.py                              # Defines the server application
+│   ├── index.py                            # Defines the layout of the application
+│   └── requirements.txt                    # Python dependencies for the dashboard
+├── Scraping_Application_Docker/            # Dockerized web scraping application
+│   ├── Dockerfile                          # Dockerfile for setting up the scraping environment
+│   ├── active_auctions.py                  # Checks for active auctions and updates the SQL databases
+│   ├── clear_db.py                         # Checks if the number of rows in the SQL database exceeds 10,000 rows
+│   ├── remove_duplicates.py                # Removes all duplicate item ids from the SQL database
+│   ├── requirements.txt                    # Python dependencies for the scraper
+|   └── scraper.py                          # Main web scraping script
+├── Animation.gif                           # GIF demonstrating the application's functionality
+├── LICENSE                                 # Licensing information for the repository
+└── README.md                               # Overview of the repository
+```
+---
 ## Process:
 * Preprocessing (NLP packages)
 * Exploratory Data Analysis conducted utilizing various python packages (Numpy, Matplotlib, Pandas, and Plotly).'
